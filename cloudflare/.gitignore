@@ -2,3 +2,4 @@
 .wrangler/tmp/*
 worker-env.d.ts
 node_modules/
+node_modules/
