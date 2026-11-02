@@ -1,0 +1,13 @@
+{
+  "name": "@platform-onenext/core",
+  "version": "0.1.0",
+  "description": "platform.onenext core client: typed HTTP, retries, errors, logging",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "sideEffects": false,
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "README.md"],
+  "scripts": { "build": "tsc -p tsconfig.build.json" }
+}

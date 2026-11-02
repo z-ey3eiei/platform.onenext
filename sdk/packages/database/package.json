@@ -1,0 +1,14 @@
+{
+  "name": "@platform-onenext/database",
+  "version": "0.1.0",
+  "description": "platform.onenext database query builder: typed, chainable, PostgREST-compatible",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "sideEffects": false,
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "README.md"],
+  "dependencies": { "@platform-onenext/core": "0.1.0" },
+  "scripts": { "build": "tsc -p tsconfig.build.json" }
+}

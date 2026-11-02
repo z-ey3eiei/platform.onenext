@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": { "noEmit": true, "allowImportingTsExtensions": true, "erasableSyntaxOnly": true, "baseUrl": ".",
+    "paths": {
+      "@platform-onenext/core": ["./packages/core/src/index.ts"],
+      "@platform-onenext/database": ["./packages/database/src/index.ts"]
+    }, "module": "ESNext", "moduleResolution": "bundler" },
+  "include": ["packages/*/src", "testing"],
+  "exclude": ["**/dist"]
+}
