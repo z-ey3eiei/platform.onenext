@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+dist-ssr/
+coverage/
+
+# env files — never commit real secrets
+.env
+.env.*
+!.env.example
+
+# local tools / editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.local
+.vercel/
+
+# logs
+npm-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+
+# archives created ad hoc
+*.tar.gz
+*.zip
